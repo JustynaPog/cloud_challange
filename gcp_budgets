@@ -1,0 +1,14 @@
+gcloud billing budgets create --billing-account=0136D4-1935E1-5FBEE6 --display-name="BUDGET1" --budget-amount=10.00PLN
+gcloud billing budgets list --billing-account=0136D4-1935E1-5FBEE6
+---
+amount:
+  specifiedAmount:
+    currencyCode: PLN
+    units: '10'
+budgetFilter:
+  calendarPeriod: MONTH
+  creditTypesTreatment: INCLUDE_ALL_CREDITS
+displayName: BUDGET1
+etag: '1696870901865391'
+name: billingAccounts/0136D4-1935E1-5FBEE6/budgets/68817d7c-f519-4960-b906-628bd3548022
+notificationsRule: {}
