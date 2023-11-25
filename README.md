@@ -1,4 +1,4 @@
-The list of tasks in the DareIT cloud_challange:
+The list of tasks in the DareIT cloud_challenge:
 1. Setup of environment
 2. Creating static website
 3. Python and Cloud Functions
