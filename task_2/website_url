@@ -1,6 +1,11 @@
+1. gcloud commands to:
+- create the bucket with the right permissions (public):
 gsutil mb gs://bucket_gcloud_task2
 gsutil acl ch -u AllUsers:R gs://bucket_gcloud_task2
+
+- copy index.html to the bucket:
 curl https://github.com/JustynaPog/cloud_challange/blob/main/task_2/index.htm --output index.html
 gsutil cp index.html gs://bucket_gcloud_task2
 
+2. The url of created website:
 https://storage.googleapis.com/bucket_dareit/index.htm
